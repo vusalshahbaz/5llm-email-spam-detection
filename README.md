@@ -6,8 +6,8 @@ Evaluation of LLMs on spam classification using single-prompt (`/api/generate`) 
 
 | Dataset     | Samples | Ham | Spam |
 |------------|---------|-----|------|
-| **TREC 2007** | 3,771 | 1,248 (33%) | 2,523 (67%) |
-| **Ling**      | 578   | 482 (83%)   | 96 (17%)    |
+| **[TREC 2007](https://www.kaggle.com/datasets/imdeepmind/preprocessed-trec-2007-public-corpus-dataset)** | 3,771 | 1,248 (33%) | 2,523 (67%) |
+| **[Ling](https://www.kaggle.com/datasets/mandygu/lingspam-dataset)**      | 578   | 482 (83%)   | 96 (17%)    |
 
 ## Results
 
