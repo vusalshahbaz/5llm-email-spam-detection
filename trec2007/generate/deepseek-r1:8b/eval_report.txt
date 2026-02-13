@@ -1,0 +1,19 @@
+TREC 2007 test set – Ollama evaluation report
+==================================================
+Mode: generate
+URL: http://localhost:11434/api/generate
+Model: deepseek-r1:8b
+Samples: 3771 total, 3771 valid, 0 failed
+
+Accuracy
+--------------------
+  0.9578
+
+Macro (precision, recall, f1)
+------------------------------
+  precision=0.9447  recall=0.9653  f1=0.9535
+
+By class (0 = ham, 1 = spam)
+------------------------------
+  Class 0: precision=0.8960  recall=0.9872  f1=0.9394
+  Class 1: precision=0.9933  recall=0.9433  f1=0.9677

@@ -1,0 +1,19 @@
+TREC 2007 test set – Ollama evaluation report
+==================================================
+Mode: generate
+URL: http://localhost:11434/api/generate
+Model: falcon3:7b
+Samples: 3771 total, 3716 valid, 55 failed
+
+Accuracy
+--------------------
+  0.8315
+
+Macro (precision, recall, f1)
+------------------------------
+  precision=0.8135  recall=0.8505  f1=0.8209
+
+By class (0 = ham, 1 = spam)
+------------------------------
+  Class 0: precision=0.6814  recall=0.9048  f1=0.7774
+  Class 1: precision=0.9455  recall=0.7963  f1=0.8645

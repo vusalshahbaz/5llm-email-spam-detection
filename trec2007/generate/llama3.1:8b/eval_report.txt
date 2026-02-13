@@ -1,0 +1,19 @@
+TREC 2007 test set – Ollama evaluation report
+==================================================
+Mode: generate
+URL: http://localhost:11434/api/generate
+Model: llama3.1:8b
+Samples: 3771 total, 3771 valid, 0 failed
+
+Accuracy
+--------------------
+  0.9878
+
+Macro (precision, recall, f1)
+------------------------------
+  precision=0.9862  recall=0.9862  f1=0.9862
+
+By class (0 = ham, 1 = spam)
+------------------------------
+  Class 0: precision=0.9816  recall=0.9816  f1=0.9816
+  Class 1: precision=0.9909  recall=0.9909  f1=0.9909

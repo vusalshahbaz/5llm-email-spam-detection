@@ -1,0 +1,19 @@
+TREC 2007 test set – Ollama evaluation report
+==================================================
+Mode: generate
+URL: http://localhost:11434/api/generate
+Model: mistral:7b
+Samples: 3771 total, 3771 valid, 0 failed
+
+Accuracy
+--------------------
+  0.8799
+
+Macro (precision, recall, f1)
+------------------------------
+  precision=0.8619  recall=0.8709  f1=0.8661
+
+By class (0 = ham, 1 = spam)
+------------------------------
+  Class 0: precision=0.8027  recall=0.8446  f1=0.8231
+  Class 1: precision=0.9211  recall=0.8973  f1=0.9091

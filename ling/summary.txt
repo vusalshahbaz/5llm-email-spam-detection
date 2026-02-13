@@ -1,0 +1,19 @@
+Dataset split summary (messages.csv)
+==================================================
+
+Total rows (excluding header): 2893
+Train: 2315 (80.0%)
+Test:  578 (20.0%)
+
+Class distribution (label)
+--------------------------------------------------
+  '0': total=2412, train=1930, test=482
+  '1': total=481, train=385, test=96
+
+Train set distribution (%):
+  '0': 83.4%
+  '1': 16.6%
+
+Test set distribution (%):
+  '0': 83.4%
+  '1': 16.6%
